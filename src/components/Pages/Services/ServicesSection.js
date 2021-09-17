@@ -9,9 +9,7 @@ import Container from 'react-bootstrap/Container'
 import './services.css'
 import styled from 'styled-components'
 
- import  recruitment1 from "../../../images/Images ERA Website/Blog recruitment/recruitment1.jpg"
- import  recruitment2 from "../../../images/Images ERA Website/Blog recruitment/recruitment2.jpg"
-import  recruitment3 from "../../../images/Images ERA Website/Blog recruitment/recruitment3.jpg"
+
 
 
 
@@ -30,7 +28,7 @@ const ServicesSection = () => {
                 <img className="about"  src="/photo.jpg" alt="image" to="/itlf"/> 
                 <h4 css={`text-align:center;`}>ITLF</h4>
                 </Col>
-            <Col xsm><img className="about" src={recruitment1} alt="image"/>
+            <Col xsm><img className="about" src="/recruitment1.jpg" alt="image"/>
             <h4 css={`text-align:center;`}>Assessment Portal(AI)</h4>
                 </Col>
             <Col xsm><img className="about" src="/photo.jpg" alt="image"/>
@@ -43,7 +41,7 @@ const ServicesSection = () => {
                 <img className="about"  src="/photo.jpg" alt="image"/> 
                 <h4 css={`text-align:center;`}>Digipedagogy</h4>
                 </Col>
-            <Col xsm><img className="about" src={recruitment1} alt="image"/>
+            <Col xsm><img className="about" src="/recruitment2.jpg"alt="image"/>
             <h4 css={`text-align:center;`}>Recruitment</h4>
                 </Col>
             <Col xsm><img className="about" src="/photo.jpg" alt="image"/>
@@ -55,7 +53,7 @@ const ServicesSection = () => {
                 <img className="about"  src="/photo.jpg" alt="image"/>
                     <h4 css={`text-align:center;`}>Projects & Internship</h4>
                 </Col>
-            <Col xsm><img className="about" src={recruitment1} alt="image"/>
+            <Col xsm><img className="about" src="/recruitment3.jpg" alt="image"/>
             <h4 css={`text-align:center;`}>Software Development</h4>
                 </Col>
             <Col xsm><img className="about" src="/photo.jpg" alt="image"/>

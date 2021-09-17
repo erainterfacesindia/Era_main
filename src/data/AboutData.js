@@ -16,6 +16,6 @@ export default [
     icon: <GiDiamondHard className="icon" />,
     label: "Our Vision",
     text:
-      "  Our technology-enabled solutions are tailored to meet the demands of individuals & organisations... ",
+      "  Our technology-enabled solutions are tailored to meet the demands of individuals & organisations... Our technology-enabled solutions are tailored to meet the demands of individuals & organisations... ",
   },
 ]

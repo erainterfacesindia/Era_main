@@ -1,143 +1,50 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
+import { graphql } from "gatsby"
+import { GatsbyImage } from "gatsby-plugin-image"
+import Layout from './Layout'
+// import { useStaticQuery } from 'gatsby'
+// import Card from 'react-bootstrap/Card'
+// import Row from 'react-bootstrap/Card'
+// import Col from 'react-bootstrap/Card'
 
-const Section2Duplicate = () => {
-    return (
-        <section class="pt-5 pb-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <h3 class="mb-3">Our Services</h3>
-            </div>
-            <div class="col-6 text-right">
-                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                    <i class="fa fa-arrow-left"></i>
-                </a>
-                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                    <i class="fa fa-arrow-right"></i>
-                </a>
-            </div>
-            <div class="col-12">
-                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                    <img src="/photo.jpg" class="img-fluid" alt="100%x280"/>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                    <img src="/photo.jpg"/>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                    <img src="/photo.jpg"/>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                    <img src="/photo.jpg"/>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                    <img src="/photo.jpg"/>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                    <img src="/photo.jpg"/>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                    <img src="/photo.jpg"/>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                    <img src="/photo.jpg"/>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img src="/photo.jpg"/>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+const Section2Duplicate = ({data}) => {
+   <Layout>
+        <Carousel>
+            {data.SlideShow.edges.map(({node}) => {
+        <Carousel.Item key={node.id}>
+            <GatsbyImage image={node.childImageSharp.gatsbyImageData} alt={node.base} />
+         </Carousel.Item>
+            })}
+      </Carousel>
+      </Layout>
     
-    )
 }
-
 export default Section2Duplicate
+
+export const PageQuery= graphql`
+query{
+ SlideShow:allFile(
+    filter: {relativeDirectory: {eq: "ourservices"}}
+    sort: {fields: base, order: ASC}
+  ) {
+    edges {
+      node {
+        id
+        base
+        relativePath
+        childImageSharp {
+           gatsbyImageData(
+            height: 480
+            width: 480
+            placeholder: BLURRED
+            quality: 70
+            blurredOptions: {width: 100}
+            transformOptions: {cropFocus: CENTER, fit: COVER}
+          )
+        }
+      }
+    }
+  }
+}
+`

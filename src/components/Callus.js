@@ -1,20 +1,21 @@
 import React from 'react'
 import {Button} from './Button'
 import Wrapper from '../components/UI/Wrapper'
-import * as Styles from '../components/Pages/Home/HeroSection/Section1.module.css'
+import * as CallStyles from '../components/Pages/Home/HeroSection/Section1.module.css'
 import '../components/Style/global.css'
 
 const Callus = () => {
     return (
       <div class="p-3 bg-danger bg-gradient text-white">
       <Wrapper>
-        <div className={Styles.container + " row"}>
-            <div className="col-lg-6 col-sm-12">
-              <h1>Next ERA Of Your Business, Start Here.  </h1>
+        <div className={CallStyles.container + " row"}>
+            <div className="col-lg-6 col-sm-12 text-center">
+              <h2>Next ERA Of Your Business, Start Here.  </h2>
             </div> 
-          <div className="col-lg-6 col-sm-12" css={` padding:10px; `}>
-            <Button as="button" type="submit" primary="true" round="true" big="true"css={`
+          <div className="col-lg-5 col-sm-12 text-lg-end" >
+            <Button as="button" type="submit" primary="true" round="true" css={`
            font-size:20px;
+           max-width:100%;
            background-color:white;
            color:#f26a2e;
             `}>Callus Now</Button>  

@@ -1,0 +1,48 @@
+.contactHeader
+{
+text-align:flex-start;
+
+padding-left:0 1rem;
+padding-bottom:2rem;
+padding: 0 2rem;
+font-size:2rem;
+}
+
+.contactPara
+{
+    font-size: 1rem;
+}
+
+.wrapper {
+    height: 100vh;
+    background: #000;
+    background: url("https://i.imgur.com/g63vXfd.jpg");
+    background-size: cover;
+    width: 100%
+}
+
+
+.address {
+    margin-top: 14px !important;
+    margin-left: 10px
+}
+
+.address span {
+    color: #7B1FA2
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icons i {
+    font-size: 20px
+}
+

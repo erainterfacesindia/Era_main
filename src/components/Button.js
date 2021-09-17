@@ -5,16 +5,16 @@ import { Link } from "gatsby"
 export const Button = styled(Link)`
  background : ${({ primary}) => (primary ? "#f26a2e" : "white")};
  white-space: nowrap;
- padding: ${({ big}) => (big ? "16px 40px" : "10px 32px")};
+ padding: ${({ big}) => (big ? "16px 30px" : "10px 22px")};
  color:#fff;
- font-size:${({ big}) => (big ? "13.5px" : "15px")};
+ font-size:${({ big}) => (big ? "11.5px" : "13px")};
  outline: none;
  border: none;
  min-width: 35px;
  cursor: pointer;
  text-decoration: none;
  transition: 0.3s !important;
- border-radius:10px;
+ border-radius:8px;
  &:hover {
      /* background: ${({ primary}) => (primary ? "#f26a2e" : "#fff")}; */
      background: #333;

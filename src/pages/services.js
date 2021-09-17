@@ -1,12 +1,16 @@
 import React from 'react'
+import ServicesSection from '../components/Pages/Services/ServicesSection'
+import Callus from '../components/Callus'
+import Layout from "../components/Layout"
+import '../components/Style/global.css'
 
-const services = () => {
-    return (
-        <div>
-            
-        </div>
+const industries= () => {
+return (
+         <Layout>
+            <ServicesSection />
+            <Callus />
+        </Layout>
     )
 }
 
-export default services
-
+export default industries

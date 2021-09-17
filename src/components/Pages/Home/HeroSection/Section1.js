@@ -10,14 +10,14 @@ const Section1 = (props) => {
         <div class="p-3s bg-black text-white">
         <Wrapper>
             <div className={heroStyles.container + " row"}>
-                <div className="col-lg-6 col-sm-12 pad-top-xlg">               
+            <div className="col-lg-6 col-sm-12">
+                    <img className="about" src="/eragif.gif" alt="home_about image" />
+                </div>
+                <div className="col-lg-6 col-sm-12">               
                     <HeroH1  className="pad-bottom-md">Our Technology Enabled Solutions!</HeroH1>
                     <HeroP className="pad-bottom-md">Are tailored to meet the demands of individuals & organisations...</HeroP>
                     <Button primary="true" round="true" big="true" to="/about" className="pad-bottom-md"> Explore More</Button>
-                </div>
-                <div className="col-lg-6 col-sm-10">
-                    <img className="about" src="/eragif.gif" alt="home_about image" />
-                </div>
+                </div>            
             </div>
         </Wrapper>
         </div>
@@ -29,10 +29,10 @@ export default Section1
 
 const HeroH1=styled.div`
 text-align:start;
-padding-top:5rem;
 padding-left:0 1rem;
 font-size:2rem;
 font-weight:bold;
+padding-top:3rem;
 `
 const HeroP=styled.div`
 text-align:start;

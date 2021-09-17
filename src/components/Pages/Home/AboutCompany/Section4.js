@@ -6,7 +6,7 @@ import Wrapper from '../../../UI/Wrapper'
 
 const Section4 = () => {
     return (
-    <div class="p-3 bg-dark bg-gradient text-white">
+    <div class="p-3 bg-black text-white">
         <Wrapper>
             <div className={Styles.container + " row"}>
                 <div className="col-lg-6 col-sm-12">

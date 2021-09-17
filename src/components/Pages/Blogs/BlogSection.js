@@ -10,7 +10,7 @@ import { push } from "object-path";
 //import { Carousel } from "bootstrap";
 import  "../../Style/global.css"
  
-export default function Ourblogs({heading}) {
+export default function BlogSection({heading}) {
   const data= useStaticQuery(
     graphql`
 query{
@@ -39,7 +39,7 @@ query{
 `)
 
 
-function Section3(data) {
+function blogSection(data) {
   const ourservicesArray = []
     data.allFile.edges.map(({node , index}) => { 
       ourservicesArray.push(
@@ -70,12 +70,10 @@ function Section3(data) {
     return (
       <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>
-   <ProductWrapper> {Section3(data)} </ProductWrapper >    {/*style={{display: "flex", flexDirection: "row"}}     */}
+   <ProductWrapper> {blogSection(data)} </ProductWrapper >    {/*style={{display: "flex", flexDirection: "row"}}     */}
       </ProductsContainer>
     )
 }
-
-
 const ProductsContainer = styled.div`
 height:100%;
 padding:3rem calc((100vw - 1300px)/2);
@@ -86,9 +84,9 @@ background-color: black;
 
 const ProductsHeading = styled.div`
 font-size: clamp(1.2rem,5vw,3rem);
-text-align: left;
+text-align: center;
 padding-left: 20px;
-padding-bottom: 2rem;
+padding-bottom: 4rem;
 color: #f26a2e;
 `
 const ProductWrapper = styled.div`

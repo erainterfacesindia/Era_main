@@ -6,6 +6,7 @@ import Section2 from "../components/Pages/Home/Section2"
 import Section3 from "../components/Pages/Home/Section3"
 import Section4 from "../components/Pages/Home/AboutCompany/Section4"
 import Callus from "../components/Callus"
+import Section2Duplicate from "../components/Section2Duplicate"
 //import Section2Duplicate from "../components/Section2Duplicate"
 //import Sidebar from "../components/Sidebar"
 

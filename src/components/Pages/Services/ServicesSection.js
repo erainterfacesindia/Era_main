@@ -19,44 +19,44 @@ const ServicesSection = () => {
         <div className={Styles.container}>
             <Container class="border">
             <Row className="pad-bottom-md">
-            <Col xsm><h2 className="header">Education</h2></Col>
-            <Col xsm><h2 className="header">Recruitment</h2></Col>
-            <Col xsm><h2 className="header">Application</h2></Col>
+            <Col xs={4}><h2 className="header">Education</h2></Col>
+            <Col xs={4}><h2 className="header">Recruitment</h2></Col>
+            <Col xs={4}><h2 className="header">Application</h2></Col>
         </Row>
         <Row>
-            <Col xsm class="text-center">
+            <Col xs={4} class="text-center">
                 <img className="about"  src="/photo.jpg" alt="image" to="/itlf"/> 
                 <h4 css={`text-align:center;`}>ITLF</h4>
                 </Col>
-            <Col xsm><img className="about" src="/recruitment1.jpg" alt="image"/>
+            <Col xs={4}><img className="about" src="/recruitment1.jpg" alt="image"/>
             <h4 css={`text-align:center;`}>Assessment Portal(AI)</h4>
                 </Col>
-            <Col xsm><img className="about" src="/photo.jpg" alt="image"/>
+            <Col xs={4}><img className="about" src="/photo.jpg" alt="image"/>
             <h4 css={`text-align:center;`}>Attendance(AI)</h4>
                 </Col>
                 
         </Row>
         <Row>
-            <Col xsm>
+            <Col xs={4}>
                 <img className="about"  src="/photo.jpg" alt="image"/> 
                 <h4 css={`text-align:center;`}>Digipedagogy</h4>
                 </Col>
-            <Col xsm><img className="about" src="/recruitment2.jpg"alt="image"/>
+            <Col xs={4}><img className="about" src="/recruitment2.jpg"alt="image"/>
             <h4 css={`text-align:center;`}>Recruitment</h4>
                 </Col>
-            <Col xsm><img className="about" src="/photo.jpg" alt="image"/>
+            <Col xs={4}><img className="about" src="/photo.jpg" alt="image"/>
             <h4 css={`text-align:center;`}>Digital Marketing</h4>
                 </Col>
         </Row>
         <Row>
-            <Col xsm class="text-center">
+            <Col xs={4} class="text-center">
                 <img className="about"  src="/photo.jpg" alt="image"/>
                     <h4 css={`text-align:center;`}>Projects & Internship</h4>
                 </Col>
-            <Col xsm><img className="about" src="/recruitment3.jpg" alt="image"/>
+            <Col xs={4}><img className="about" src="/recruitment3.jpg" alt="image"/>
             <h4 css={`text-align:center;`}>Software Development</h4>
                 </Col>
-            <Col xsm><img className="about" src="/photo.jpg" alt="image"/>
+            <Col xs={4}><img className="about" src="/photo.jpg" alt="image"/>
             <h4 css={`text-align:center;`}>Projects & Internship</h4>
                 </Col>
         </Row>
@@ -80,7 +80,7 @@ justify-content: center;
 `
 const ProductInfo = styled.div`
                       display:flex;
-                      flex-direction:column;
+                      flex-direction:Col xs={4}umn;
                       align-items:center;
                       padding: 0 2rem;
 

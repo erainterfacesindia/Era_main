@@ -7,19 +7,19 @@ const AboutSection3 = () => {
         <div class="col text-center bg-black text-white">
             <h1 class="text-left">Our Process</h1>
             <h4>Discover the steps we follow  to ensure that every project we deliver is a success</h4>
-               <h3 class="fw-bold"> Understanding Your Business</h3>
+               <h3 > Understanding Your Business</h3>
                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> */}
-                <h3 class="fw-bold"> Understanding Your Business</h3>
+                <h3 > Understanding Your Business</h3>
                {/* <p className="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> */}
-                <h3 class="fw-bold"> Understanding Your Business</h3>
+                <h3 > Understanding Your Business</h3>
                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> */}
-                <h3 class="fw-bold"> Understanding Your Business</h3>
+                <h3> Understanding Your Business</h3>
                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> */}
-                <h3 class="fw-bold"> Understanding Your Business</h3>
+                <h3 > Understanding Your Business</h3>
                {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> */}
         </div>

@@ -21,6 +21,7 @@ query{
     edges {
       node {
         id
+        name
         base
         relativePath
         childImageSharp {
@@ -50,12 +51,12 @@ function Section3(data) {
         
       <ProductInfo>   
       
-         <ProductTitle css={`color:white; font-size: 1.3vw;`}>
-         Our Technology-Enabled Solutions
+         <ProductTitle css={`color:white; font-size: 20px;`}>
+         {node.name}
         </ProductTitle>
            <Button to="/" primary="true" round="true" css={`
            position:absolute;
-           top:270px;
+           top:300px;
            font-size:14px;
            `}>Show More</Button> 
              
@@ -86,7 +87,7 @@ background-color: black;
 
 const ProductsHeading = styled.div`
 font-size: clamp(1.2rem,5vw,3rem);
-text-align: left;
+text-align: center;
 padding-left: 20px;
 padding-bottom: 2rem;
 color: #f26a2e;
@@ -145,8 +146,6 @@ top: 375px;`
 
 const ProductTitle = styled.div`
 position:absolute;
-font-weight:400;
-font-size:1rem;
 top: 220px;
 text-align: center;
 justify-content: center;

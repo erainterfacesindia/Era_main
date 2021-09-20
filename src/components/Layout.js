@@ -1,6 +1,6 @@
 import * as React from "react"
 import Footer from "./Footer"
-import Navbar from "./Navbar"
+import Navbar from "../components/navbar/Navbar"
 import { GlobalStyle } from './Style/GlobalStyle'
 import 'bootstrap/dist/css/bootstrap.min.css';
 

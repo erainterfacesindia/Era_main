@@ -14,7 +14,7 @@ export const Button = styled(Link)`
  cursor: pointer;
  text-decoration: none;
  transition: 0.3s !important;
- border-radius:8px;
+ border-radius:10px;
  &:hover {
      /* background: ${({ primary}) => (primary ? "#f26a2e" : "#fff")}; */
      background: #333;

@@ -57,12 +57,12 @@ function Section2(data)
                           `} />
                           
                                     <ProductInfo>
-                                        <ProductTitle css={`color:white; font-size: 3vw;`}>
+                                        <ProductTitle css={`color:white; font-size: 3.5vw;`}>
                                           {node.name}
                                         </ProductTitle>
                                         <Button to="/services" primary="true" round="true" css={`
                                           position:absolute;
-                                          top :300px;
+                                          top :320px;
                                           font-size:14px;
                                           `}>Explore More</Button>
                                       </ProductInfo>
@@ -100,8 +100,7 @@ function Section2(data)
 
                       const ProductsHeading = styled.div`
                       font-size: clamp(1.2rem,5vw,3rem);
-                      text-align: left;
-                      padding-left: 20px;
+                      text-align: center;
                       padding-bottom: 2rem;
                       color: #f26a2e;
                       `
@@ -160,10 +159,9 @@ function Section2(data)
                       const ProductTitle = styled.div`
                       position:absolute;
                       font-weight:400;
-                      font-size:1rem;
                       top: 220px;
                       text-align: center;
-                      justify-content: center;
+                      justify-content:inherit;
                       `
                       // const ProductImage=styled(GatsbyImage)`
                       // height:100%;

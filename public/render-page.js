@@ -3853,7 +3853,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": null
+    "cacheDigest": "4a9773549091c227cd2eb82ccd9c5e3a"
   }
 }, {
   name: 'gatsby-plugin-gatsby-cloud',

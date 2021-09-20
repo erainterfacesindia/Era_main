@@ -1,0 +1,21 @@
+.nav-links {
+    color:green; 
+    } 
+    
+    .nav-links:hover {
+        color:#f26a2e;
+        border-bottom: 3px solid #f26a2e;
+    }
+ .navbar
+ {
+     background-color: black;
+     color:white;
+ }   
+
+.logo {
+
+    filter: brightness(100%)
+}
+.button{
+    background-color:"#f26a2e";
+}

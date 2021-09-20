@@ -12,7 +12,7 @@ const Callus = () => {
             <div className="col-lg-6 col-sm-12 text-center">
               <h2>Next ERA Of Your Business, Start Here.  </h2>
             </div> 
-          <div className="col-lg-5 col-sm-12 text-lg-end" >
+          <div className="col-lg-6 col-sm-12 text-lg-end" >
             <Button as="button" type="submit" primary="true" round="true" css={`
            font-size:20px;
            max-width:100%;

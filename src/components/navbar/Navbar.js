@@ -186,7 +186,7 @@ import { Button } from "../Button"
 
 const Menu = () =>{
     return (
-        <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark" class="navbar">
+        <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark">
         <Container>
         <Navbar href="/" className="logo"><img src="/era_logo.png" alt="era-logo" width="150px"/> </Navbar>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

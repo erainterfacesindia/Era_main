@@ -190,7 +190,7 @@ const Menu = () =>{
         <Container>
         <Navbar href="/" className="logo"><img src="/era_logo.png" alt="era-logo" width="150px"/> </Navbar>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+        <Navbar.Collapse id="responsive-navbar-nav" className=" justify-content-lg-end">
           <Nav>
             <Nav.Link className="nav-links" href="/">Home</Nav.Link>
             <Nav.Link className="nav-links" href="/about">About</Nav.Link>

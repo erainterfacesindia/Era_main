@@ -57,7 +57,7 @@ function Section2(data)
                           `} />
                           
                                     <ProductInfo>
-                                        <ProductTitle css={`color:white; font-size: 3.5vw;`}>
+                                        <ProductTitle css={`color:white; font-size: 3vw;`}>
                                           {node.name}
                                         </ProductTitle>
                                         <Button to="/services" primary="true" round="true" css={`
@@ -94,7 +94,7 @@ function Section2(data)
 
                           const ProductsContainer = styled.div`
                           height:100%;
-                        padding:3rem calc((100vw - 1300px)/2);
+                        /* padding:3rem calc((100vw - 1300px)/2); */
                         background: white;
                         color:#fff;
                         background-color: black;

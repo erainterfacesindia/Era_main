@@ -7,7 +7,7 @@ import styled from 'styled-components'
 
 const Section1 = (props) => {
     return (
-        <div class="p-2s bg-black text-white">
+        <div class="p-3 bg-black text-white">
         <Wrapper>
             <div className={heroStyles.container + " row"}>
             <div className="col-lg-6 col-sm-10">

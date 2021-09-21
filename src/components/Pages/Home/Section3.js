@@ -82,7 +82,7 @@ function Section3(data) {
 
 const ProductsContainer = styled.div`
 height:100%;
-padding:3rem calc((100vw - 1300px)/2);
+/* padding:3rem calc((100vw - 1300px)/2); */
 background: white;
 color:#fff;
 background-color: black;

@@ -187,10 +187,10 @@ import Wrapper from '../UI/Wrapper';
 
 const Menu = () =>{
     return (
-      <Wrapper>
+      
         <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark">
         <Container>
-        <Navbar href="/" className="logo"><img src="/era_logo.png" alt="era-logo" width="150px"/> </Navbar>
+        <img src="/era_logo.png" alt="era-logo" width="150px"/> 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className=" justify-content-lg-end">
           <Nav>
@@ -199,12 +199,12 @@ const Menu = () =>{
             <Nav.Link className="nav-links" href="/services">Services</Nav.Link>
             <Nav.Link className="nav-links" href="/industries">Industries</Nav.Link>
             <Nav.Link className="nav-links" href="/blogs">Blogs</Nav.Link>
-            <Button primary="true" round="true" to="/contact" color="$orange-500" >Contact Now</Button>
+            <Button primary="true" round="true" to="/contact" >Contact Now</Button>
           </Nav>
         </Navbar.Collapse>
         </Container>
       </Navbar>
-      </Wrapper>
+      
     );
 }
 

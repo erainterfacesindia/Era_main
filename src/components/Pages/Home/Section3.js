@@ -90,7 +90,7 @@ background-color: black;
 
 const ProductsHeading = styled.div`
 font-size: clamp(1.2rem,5vw,3rem);
-text-align: center;
+text-align: start;
 padding-left: 20px;
 padding-bottom: 2rem;
 color: #f26a2e;

@@ -187,9 +187,9 @@ import Wrapper from '../UI/Wrapper';
 
 const Menu = () =>{
     return (
-      
+      <Wrapper>
         <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark">
-        <Container>
+       <Container> 
         <img src="/era_logo.png" alt="era-logo" width="150px"/> 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className=" justify-content-lg-end">
@@ -204,6 +204,7 @@ const Menu = () =>{
         </Navbar.Collapse>
         </Container>
       </Navbar>
+      </Wrapper>
       
     );
 }

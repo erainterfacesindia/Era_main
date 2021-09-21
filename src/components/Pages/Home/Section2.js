@@ -95,6 +95,9 @@ function Section2(data)
                           const ProductsContainer = styled.div`
                           height:100%;
                         /* padding:3rem calc((100vw - 1300px)/2); */
+                        /* padding:5rem; */
+                        width:100%;
+                        padding-bottom: 10%;
                         background: white;
                         color:#fff;
                         background-color: black;
@@ -102,7 +105,7 @@ function Section2(data)
 
                       const ProductsHeading = styled.div`
                       font-size: clamp(1.2rem,5vw,3rem);
-                      text-align: center;
+                      text-align:start;
                       padding-bottom: 2rem;
                       color: #f26a2e;
                       `

@@ -80,7 +80,7 @@ justify-content: center;
 `
 const ProductInfo = styled.div`
                       display:flex;
-                      flex-direction:Col xs={4}umn;
+                      flex-direction:column;
                       align-items:center;
                       padding: 0 2rem;
 

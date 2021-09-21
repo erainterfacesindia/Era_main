@@ -45,7 +45,8 @@ const AboutSection2 = () => {
 
 return (
   
-    <div class="border  bg-black">
+    <div class="  bg-black">
+      <Wrapper>
   <div className={Styles.container + " row"}>
     <div class="col-lg-6 col-sm-12 text-center pad-top-md">
       <h3 className="abouth3">OUR MISSION</h3>
@@ -58,6 +59,7 @@ return (
     <p className="aboutp">Our technology-enabled solutions are tailored to meet the demands of individuals & organisations...Our technology-enabled solutions are tailored to meet the demands of individuals & organisations</p>
     </div>
   </div>
+  </Wrapper>
   </div>
 
 

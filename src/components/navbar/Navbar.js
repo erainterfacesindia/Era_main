@@ -183,9 +183,11 @@ import React from 'react';
 import { Navbar, Nav,Container} from 'react-bootstrap';
 import "./navbar.css"
 import { Button } from "../Button"
+import Wrapper from '../UI/Wrapper';
 
 const Menu = () =>{
     return (
+      <Wrapper>
         <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark">
         <Container>
         <Navbar href="/" className="logo"><img src="/era_logo.png" alt="era-logo" width="150px"/> </Navbar>
@@ -202,6 +204,7 @@ const Menu = () =>{
         </Navbar.Collapse>
         </Container>
       </Navbar>
+      </Wrapper>
     );
 }
 

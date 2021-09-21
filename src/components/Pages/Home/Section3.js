@@ -9,6 +9,7 @@ import { useStaticQuery } from 'gatsby'
 import { push } from "object-path";
 //import { Carousel } from "bootstrap";
 import  "../../Style/global.css"
+import Wrapper from "../../UI/Wrapper";
  
 export default function Ourblogs({heading}) {
   const data= useStaticQuery(
@@ -69,10 +70,12 @@ function Section3(data) {
 
     console.log(data)
     return (
+      <Wrapper>
       <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>
    <ProductWrapper> {Section3(data)} </ProductWrapper >    {/*style={{display: "flex", flexDirection: "row"}}     */}
       </ProductsContainer>
+      </Wrapper>
     )
 }
 

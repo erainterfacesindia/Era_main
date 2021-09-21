@@ -5,7 +5,7 @@
 import styled from "styled-components"
 import {Button} from '../../Button'
 import { useStaticQuery } from 'gatsby'
-import { Carousel } from "react-bootstrap";
+import Wrapper from "../../UI/Wrapper";
  
 export default function OurServices({heading}) {
   const data= useStaticQuery(
@@ -80,10 +80,12 @@ function Section2(data)
 
                           console.log(data)
                           return (
+                            <Wrapper>
                             <ProductsContainer>
                               <ProductsHeading>{heading}</ProductsHeading>
                               <ProductWrapper>{Section2(data)}</ProductWrapper> 
                             </ProductsContainer>
+                            </Wrapper>
                           
                           )
                           

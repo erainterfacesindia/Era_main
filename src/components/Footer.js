@@ -34,23 +34,23 @@ const Footer = () => {
 export default Footer
 
 const FooterContainer =styled.div`
-padding: 5rem; clac((100vw - 1300px)/2);
+padding: 5rem; /* clac((100vw - 1300px)/2); */
 display:grid;
 grid-template-columns:repat(3, 1fr);
 color:#fff;
 background:black;
 `
 const FooterDesc = styled.div`
-padding: 0 2rem;
+/* padding: 0 2rem; */
 
 img{
     margin-bottom:2rem;
     width:250px;
 }
 
-@media screen and (max-width:400px)
+@media only screen and (max-width: 991px)
 {
-    padding:1rem;
+    /* padding:1rem; */
 }
 `
 const FooterLinksWrapper = styled.div`
@@ -58,7 +58,7 @@ display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-gap:10px;
 
-@media screen and (max-width :820px)
+@media screen and (max-width :920px)
 {
     grid-template-columns: 1fr;
 }
@@ -68,7 +68,7 @@ const FooterLinkItems = styled.div`
 display: flex;
 grid-template-columns:1fr 1fr;
 flex-direction:column;
-align-items:flex-start;
+align-items:start;
 padding: 1rem 2rem;
 
 @media screen and (max-width: 400px)

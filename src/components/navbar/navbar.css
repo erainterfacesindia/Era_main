@@ -12,10 +12,19 @@
      color:white;
  }   
 
-.logo {
 
-    filter: brightness(100%)
-}
+
+    img:hover{
+        filter: brightness(100%);
+      } 
 .button{
     background-color:"#f26a2e";
+}
+/* Container 
+{
+    max-width: 1700px;
+} */
+.sticky-nav{    
+	position:sticky;
+	top: 0;
 }

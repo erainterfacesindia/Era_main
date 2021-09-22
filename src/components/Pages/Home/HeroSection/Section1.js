@@ -7,17 +7,17 @@ import styled from 'styled-components'
 
 const Section1 = (props) => {
     return (
-        <div class="p-3 bg-black text-white">
+        <div class="p-3s bg-black text-white">
         <Wrapper>
             <div className={heroStyles.container + " row"}>
-            <div className="col-lg-6 col-sm-10">
-                    <img className="about" src="/eragif.gif" alt="home_about image" />
-                </div>
-                <div className="col-lg-6 col-sm-10">               
+            <div className="col-lg-5 col-sm-12">               
                     <HeroH1  className="pad-bottom-md">Our Technology Enabled Solutions!</HeroH1>
                     <HeroP className="pad-bottom-md">Are tailored to meet the demands of individuals & organisations...</HeroP>
                     <Button primary="true" round="true" big="true" to="/about" className="pad-bottom-md"> Explore More</Button>
-                </div>            
+                </div>  
+            <div className="col-lg-7 col-sm-12">
+                    <img className="about" src="/Home Page.png" alt="home_about image" />
+                </div>          
             </div>
         </Wrapper>
         </div>
@@ -32,7 +32,7 @@ text-align:start;
 padding-left:0 1rem;
 font-size:2rem;
 font-weight:bold;
-padding-top:3rem;
+padding-top:5rem;
 `
 const HeroP=styled.div`
 text-align:start;

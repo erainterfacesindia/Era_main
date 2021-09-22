@@ -10,10 +10,17 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve:`gatsby-plugin-mdx`,
       options: {
-        name: `video`, 
-        path: `${__dirname}/src/assets/videos`,
+        extensions:[`.md`,`.mdx`],
+        gatsbyRemarkPlugins:[
+          {
+            resolve:`gatsby-remark-images`,
+            options: {
+              maxWidth:1200,
+            },
+          },
+        ]
       },
     },
     {
@@ -23,6 +30,20 @@ module.exports = {
           path: `${__dirname}/src/images`,
         },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
+      },
+  },
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `posts`,
+      path: `${__dirname}/src/posts`,
+    },
+},
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

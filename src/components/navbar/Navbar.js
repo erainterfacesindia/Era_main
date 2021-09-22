@@ -187,25 +187,26 @@ import Wrapper from '../UI/Wrapper';
 
 const Menu = () =>{
     return (
-      
-        <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark">
-       <Container> 
-        <img src="/era_logo.png" alt="era-logo" width="150px"/> 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" className=" justify-content-lg-end">
+      <Navbar collapseOnSelect expand="md" variant="dark" sticky="top" >
+      {/* <div class="navbar navbar-expand-md navbar-dark bd-navbar sticky-top "> */}
+      <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+            <Navbar >
+        <img src="/era_logo.png" alt="era-logo" href="/" width="130px"/> </Navbar> 
+         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" className=" justify-content-md-end"> 
           <Nav>
             <Nav.Link className="nav-links" href="/">Home</Nav.Link>
             <Nav.Link className="nav-links" href="/about">About</Nav.Link>
             <Nav.Link className="nav-links" href="/services">Services</Nav.Link>
             <Nav.Link className="nav-links" href="/industries">Industries</Nav.Link>
             <Nav.Link className="nav-links" href="/blogs">Blogs</Nav.Link>
-            <Button primary="true" round="true" to="/contact" >Contact Now</Button>
+            <Button primary="true" to="/contact" >Contact Now</Button>
           </Nav>
-        </Navbar.Collapse>
-        </Container>
-      </Navbar>
-      
-      
+          </Navbar.Collapse>
+        </nav>
+        </Navbar>
+       
+  
     );
 }
 

@@ -9,10 +9,10 @@ const Callus = () => {
       <div class="p-3 bg-danger bg-gradient text-white">
       <Wrapper>
         <div className={CallStyles.container + " row"}>
-            <div className="col-lg-6 col-sm-12 text-center">
+            <div className="col-lg-6 col-sm-12">
               <h2>Next ERA Of Your Business, Start Here.  </h2>
             </div> 
-          <div className="col-lg-6 col-sm-12 text-lg-end" >
+          <div className="col-lg-6 col-sm-12 text-md-end" >
             <Button as="button" type="submit" primary="true" round="true" css={`
            font-size:20px;
            max-width:100%;

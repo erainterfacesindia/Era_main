@@ -28,6 +28,10 @@
           }
         },
         {
+          "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
+        },
+        {
           "name": "babel-plugin-react-css-modules",
           "options": {
             "generateScopedName": "[name]--[local]--[hash:base64:5]",
@@ -80,6 +84,10 @@
           "options": {
             "cacheDir": "/Users/uday/Era_main/.cache/caches/gatsby-plugin-image"
           }
+        },
+        {
+          "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
         },
         {
           "name": "babel-plugin-react-css-modules",
@@ -151,6 +159,10 @@
           }
         },
         {
+          "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
+        },
+        {
           "name": "babel-plugin-react-css-modules",
           "options": {
             "generateScopedName": "[name]--[local]--[hash:base64:5]",
@@ -218,6 +230,10 @@
           "options": {
             "cacheDir": "/Users/uday/Era_main/.cache/caches/gatsby-plugin-image"
           }
+        },
+        {
+          "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
         },
         {
           "name": "babel-plugin-react-css-modules",

@@ -5,6 +5,8 @@
 import styled from "styled-components"
 import {Button} from '../../Button'
 import { useStaticQuery } from 'gatsby'
+// import Wrapper from "../../UI/Wrapper";
+import * as heroStyles from '../Home/HeroSection/Section1.module.css';
 import Wrapper from "../../UI/Wrapper";
  
 export default function OurServices({heading}) {
@@ -56,18 +58,18 @@ function Section2(data)
                             }   
                           `} />
                           
-                                    <ProductInfo>
-                                        <ProductTitle css={`color:white; font-size: 3vw;`}>
-                                          {node.name}
-                                        </ProductTitle>
-                                        <Button to="/services" primary="true" round="true" css={`
-                                          position:absolute;
-                                          top :320px;
-                                          font-size:14px;
-                                          `}>Explore More</Button>
-                                      </ProductInfo>
+          <ProductInfo>
+          <ProductTitle css={`color:white; font-size: 3vw;`}>
+             {node.name}
+          </ProductTitle>
+        <Button to="/services" primary="true" round="true" css={`
+          position:absolute;
+          top :320px;
+          font-size:14px;
+        `}>Explore More</Button>
+        </ProductInfo>
                                     
-                                      </ProductCard> 
+   </ProductCard> 
                         )
                         
                       })
@@ -80,104 +82,89 @@ function Section2(data)
 
                           console.log(data)
                           return (
-                            <Wrapper>
-                            <ProductsContainer>
-                              <ProductsHeading>{heading}</ProductsHeading>
-                              <ProductWrapper>{Section2(data)}</ProductWrapper> 
-                            </ProductsContainer>
-                            </Wrapper>
+                            
+                                  <ProductsContainer>
+                                    <ProductsHeading>{heading}</ProductsHeading>
+                                    <ProductWrapper>{Section2(data)}</ProductWrapper> 
+                                  </ProductsContainer>
+                                
+                                 
+                          
                           
                           )
+}
                           
                           
-                      }
+const ProductsContainer = styled.div`
+height:100%;
+/* padding:3rem calc((100vw - 1300px)/2); */
+background: white;
+color:#fff;
+background-color: black;
+`
 
-                          const ProductsContainer = styled.div`
-                          height:100%;
-                        /* padding:3rem calc((100vw - 1300px)/2); */
-                        /* padding:5rem; */
-                        width:100%;
-                        padding-bottom: 10%;
-                        background: white;
-                        color:#fff;
-                        background-color: black;
-                      `
+const ProductsHeading = styled.div`
+font-size: clamp(1.2rem,5vw,3rem);
+text-align: start;
+padding-left: 50px;
+padding-bottom: 2rem;
+color: #f26a2e;
+`
+const ProductWrapper = styled.div`
+display: grid;
+grid-template-columns:repeat(3,1fr);
+grid-gap:20px;
+justify-items:center;
+padding:0 3rem;
+height:50%;
 
-                      const ProductsHeading = styled.div`
-                      font-size: clamp(1.2rem,5vw,3rem);
-                      text-align:start;
-                      padding-bottom: 2rem;
-                      color: #f26a2e;
-                      `
-                      const ProductWrapper = styled.div`
-                      display: grid;
-                      grid-template-columns:repeat(3,1fr);
-                      grid-gap:20px;
-                      justify-items:center;
-                      padding:0 3rem;
-                      height:50%;
+@media screen and (max-width: 1200px)
+{
+grid-template-columns: 1fr 1fr;
+}
 
-                      @media screen and (max-width: 1200px)
-                      {
-                        grid-template-columns: 1fr 1fr;
-                      }
+@media screen and (max-width: 868px)
+{
+grid-template-columns:1fr;
+}`
 
-                      @media screen and (max-width: 868px)
-                      {
-                        grid-template-columns:1fr;
-                      }`
+const ProductCard = styled.div`
+line-height: 2;
+width: 100%;
+height: 500px;
+position: relative;
+border-radius: 10px;
+filter: brightness(70%);
+transition: 0.4s cubic-bezier(0.075,0.82,0.165, 1);
 
-                      const ProductCard = styled.div`
-                      line-height: 2;
-                      width: 100%;
-                      height: 500px;
-                      position: relative;
-                      border-radius: 10px;
-                      filter: brightness(70%);
-                      transition: 0.4s cubic-bezier(0.075,0.82,0.165, 1);
+&:hover {
+filter: brightness(100%);
+}
 
-                      &:hover {
-                        filter: brightness(100%);
-                      }
+@media screen and (max-width: 280px)
+{
+padding:0 1rem;
+}`
 
-                      @media screen and (max-width: 280px)
-                      {
-                        padding:0 1rem;
-                      }`
+const ProductInfo = styled.div`
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+padding: 0 2rem;
 
-                      const ProductInfo = styled.div`
-                      display:flex;
-                      flex-direction:column;
-                      align-items:center;
-                      padding: 0 2rem;
+@media screen and (max-width: 400px)
+{
+padding:0 1rem;
+}`
 
-                      @media screen and (max-width: 400px)
-                      {
-                        padding:0 1rem;
-                      }`
+const TextWrap = styled.div`
+align-items: center;
+position: absolute;
+top: 375px;`
 
-                      const TextWrap = styled.div`
-                      align-items: center;
-                      position: absolute;
-                      top: 375px;`
-
-                      const ProductTitle = styled.div`
-                      position:absolute;
-                      font-weight:400;
-                      top: 220px;
-                      text-align: center;
-                      justify-content:inherit;
-                      `
-                      // const ProductImage=styled(GatsbyImage)`
-                      // height:100%;
-                      // max-width:100%;
-                      // position:absolute;
-                      // border-radius:10px;
-                      // filter:brightness(70%);
-                      // tranisition: 0.4s cubic-bazier(0.075,0.82,0.165, 1);
-
-                      // &:hover {
-                      //   filter: brightness(100%)
-                      // }`
-
-
+const ProductTitle = styled.div`
+position:absolute;
+top: 220px;
+text-align: center;
+justify-content: center;
+`

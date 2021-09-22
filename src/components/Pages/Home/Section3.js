@@ -70,12 +70,12 @@ function Section3(data) {
 
     console.log(data)
     return (
-      <Wrapper>
+      
       <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>
    <ProductWrapper> {Section3(data)} </ProductWrapper >    {/*style={{display: "flex", flexDirection: "row"}}     */}
       </ProductsContainer>
-      </Wrapper>
+     
     )
 }
 
@@ -91,7 +91,7 @@ background-color: black;
 const ProductsHeading = styled.div`
 font-size: clamp(1.2rem,5vw,3rem);
 text-align: start;
-padding-left: 20px;
+padding-left: 50px;
 padding-bottom: 2rem;
 color: #f26a2e;
 `

@@ -7,8 +7,8 @@ import Wrapper from '../../../UI/Wrapper'
 const Section4 = () => {
     return (
     <div class="p-3 bg-black text-white">
-        <Wrapper>
-            <div className={Styles.container + " row"}>
+        <div class="container bootstrap snippets bootdey">
+        <div class="row">
                 <div className="col-lg-6 col-sm-12">
                     <TitleContainer>About Our Company</TitleContainer>
                         <SubTitle>Reliable & Cost Efficient Company</SubTitle>
@@ -23,7 +23,8 @@ const Section4 = () => {
                 <img className="about" src="/eragif.gif" alt="home_about image" />
                 </div>
             </div>
-        </Wrapper>
+            </div>
+            
         </div>
 )
         }

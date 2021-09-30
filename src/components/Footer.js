@@ -4,7 +4,9 @@ import styled from 'styled-components'
 
 const Footer = () => {
     return (
-        <FooterContainer>
+        <div class="p-3s bg-black text-white">
+        <div class="container bootstrap snippets bootdey">
+        <div class="row">
             <FooterLinksWrapper>
                 <FooterDesc>  
                     <img src="/era_logo.png" alt="era-logo"/> 
@@ -27,7 +29,9 @@ const Footer = () => {
                      
                 </FooterLinkItems>
             </FooterLinksWrapper>
-        </FooterContainer>
+        </div>
+        </div>
+        </div>
     )
 }
 

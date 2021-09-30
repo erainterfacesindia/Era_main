@@ -7,21 +7,22 @@ import '../components/Style/global.css'
 const Callus = () => {
     return (
       <div class="p-3 bg-danger bg-gradient text-white">
-      <Wrapper>
-        <div className={CallStyles.container + " row"}>
+      <div class="container bootstrap snippets bootdey">
+        <div class="row">
             <div className="col-lg-6 col-sm-12">
               <h2>Next ERA Of Your Business, Start Here.  </h2>
             </div> 
-          <div className="col-lg-6 col-sm-12 text-md-end" >
+          <div className="col-lg-6 col-sm-12 text-md-center" >
             <Button as="button" type="submit" primary="true" round="true" css={`
            font-size:20px;
            max-width:100%;
            background-color:white;
            color:#f26a2e;
             `}>Callus Now</Button>  
-        </div>      
+        </div>    
+        </div>  
       </div>
-      </Wrapper>
+      
       </div>
     )
 }

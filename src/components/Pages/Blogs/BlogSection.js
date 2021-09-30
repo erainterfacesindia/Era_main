@@ -2,8 +2,7 @@ import React from 'react'
 import Wrapper from '../../UI/Wrapper'
 import './blogs.css'
 import Badge from 'react-bootstrap/Badge'
-import { Button } from '../../Button'
-import EPortal from "../../../pages/services/examportal"
+
 
 const BlogSection = () => {
   return (

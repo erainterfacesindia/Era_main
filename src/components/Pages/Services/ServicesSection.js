@@ -16,75 +16,164 @@ import styled from 'styled-components'
 const ServicesSection = () => {
     return (
         <div class="p-3s bg-black text-white">
-        <div className={Styles.container}>
-            <Container class="border">
-            <Row className="pad-bottom-md">
-            <Col xs={4}><h2 className="header">Education</h2></Col>
-            <Col xs={4}><h2 className="header">Recruitment</h2></Col>
-            <Col xs={4}><h2 className="header">Application</h2></Col>
-        </Row>
-        <Row>
-            <Col xs={4} class="text-center">
-                <img className="about"  src="/photo.jpg" alt="image" to="/itlf"/> 
-                <h4 css={`text-align:center;`}>ITLF</h4>
-                </Col>
-            <Col xs={4}><img className="about" src="/recruitment1.jpg" alt="image"/>
-            <h4 css={`text-align:center;`}>Assessment Portal(AI)</h4>
-                </Col>
-            <Col xs={4}><img className="about" src="/photo.jpg" alt="image"/>
-            <h4 css={`text-align:center;`}>Attendance(AI)</h4>
-                </Col>
-                
-        </Row>
-        <Row>
-            <Col xs={4}>
-                <img className="about"  src="/photo.jpg" alt="image"/> 
-                <h4 css={`text-align:center;`}>Digipedagogy</h4>
-                </Col>
-            <Col xs={4}><img className="about" src="/recruitment2.jpg"alt="image"/>
-            <h4 css={`text-align:center;`}>Recruitment</h4>
-                </Col>
-            <Col xs={4}><img className="about" src="/photo.jpg" alt="image"/>
-            <h4 css={`text-align:center;`}>Digital Marketing</h4>
-                </Col>
-        </Row>
-        <Row>
-            <Col xs={4} class="text-center">
-                <img className="about"  src="/photo.jpg" alt="image"/>
-                    <h4 css={`text-align:center;`}>Projects & Internship</h4>
-                </Col>
-            <Col xs={4}><img className="about" src="/recruitment3.jpg" alt="image"/>
-            <h4 css={`text-align:center;`}>Software Development</h4>
-                </Col>
-            <Col xs={4}><img className="about" src="/photo.jpg" alt="image"/>
-            <h4 css={`text-align:center;`}>Projects & Internship</h4>
-                </Col>
-        </Row>
-        </Container>
-        </div>
+    <div class="container bootstrap snippets bootdey">
+    <div class="row">
+    <div class="row">
+  <h2 class="headline py-3">
+                EDUCATION
+                <span class="underline"></span>
+              </h2>
+      </div>
+    <div class="col-md-4">
+        <a href="/services/Itlf" class="widget widget-image">
+        {/* <a href="services/Itlf/" title="read more" class="btn btn-round btn-info">Read More</a>  */}
+            <div class="widget-image-cover">
+                <img src="/recruitment2.jpg" alt=""/>
+            </div>
+            <div class="widget-image-info">
+                <h4>ITLF</h4>
+                <p>
+                    Curabitur ullamcorper mi ut rutrum gravida commodo tellus.
+                </p>
+
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="/services/digipedagogy" class="widget widget-image">
+        {/* <a href="services/Itlf/" title="read more" class="btn btn-round btn-info">Read More</a>  */}
+            <div class="widget-image-cover">
+                <img src="/recruitment3.jpg" alt=""/>
+            </div>
+            <div class="widget-image-info">
+                <h4>DIGIPEDAGOGY</h4>
+                <p>
+                    Curabitur ullamcorper mi ut rutrum gravida commodo tellus.
+                </p>
+
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="/services/internships" class="widget widget-image">
+        {/* <a href="services/Itlf/" title="read more" class="btn btn-round btn-info">Read More</a>  */}
+            <div class="widget-image-cover">
+                <img src="/about_home.jpeg" alt=""/>
+            </div>
+            <div class="widget-image-info">
+                <h4>PROJECTS & INTERNSHIP</h4>
+                <p>
+                    Curabitur ullamcorper mi ut rutrum gravida commodo tellus.
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+  <h2 class="headline py-3">
+                RECRUITMENT
+                <span class="underline"></span>
+              </h2>
+      </div>
+    <div class="col-md-4">
+        <a href="/services/recruitment" class="widget widget-image">
+        {/* <a href="services/Itlf/" title="read more" class="btn btn-round btn-info">Read More</a>  */}
+            <div class="widget-image-cover">
+                <img src="/recruitment2.jpg" alt=""/>
+            </div>
+            <div class="widget-image-info">
+                <h4>RECRUITMENT</h4>
+                <p>
+                    Curabitur ullamcorper mi ut rutrum gravida commodo tellus.
+                </p>
+
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="/services/assessment" class="widget widget-image">
+        {/* <a href="services/Itlf/" title="read more" class="btn btn-round btn-info">Read More</a>  */}
+            <div class="widget-image-cover">
+                <img src="/recruitment3.jpg" alt=""/>
+            </div>
+            <div class="widget-image-info">
+                <h4>ASSESSMENT</h4>
+                <p>
+                    Curabitur ullamcorper mi ut rutrum gravida commodo tellus.
+                </p>
+
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="/services/development" class="widget widget-image">
+        {/* <a href="services/Itlf/" title="read more" class="btn btn-round btn-info">Read More</a>  */}
+            <div class="widget-image-cover">
+                <img src="/about_home.jpeg" alt=""/>
+            </div>
+            <div class="widget-image-info">
+                <h4>SOFTWARE DEVELOPMENT</h4>
+                <p>
+                    Curabitur ullamcorper mi ut rutrum gravida commodo tellus.
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+  <h2 class="headline py-3">
+                APPLICATION
+                <span class="underline"></span>
+              </h2>
+      </div>
+    <div class="col-md-4">
+        <a href="/services/attendance" class="widget widget-image">
+        {/* <a href="services/Itlf/" title="read more" class="btn btn-round btn-info">Read More</a>  */}
+            <div class="widget-image-cover">
+                <img src="/recruitment2.jpg" alt=""/>
+            </div>
+            <div class="widget-image-info">
+                <h4>ATTENDANCE</h4>
+                <p>
+                    Curabitur ullamcorper mi ut rutrum gravida commodo tellus.
+                </p>
+
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="/services/digitalmarketing" class="widget widget-image">
+        {/* <a href="services/Itlf/" title="read more" class="btn btn-round btn-info">Read More</a>  */}
+            <div class="widget-image-cover">
+                <img src="/recruitment3.jpg" alt=""/>
+            </div>
+            <div class="widget-image-info">
+                <h4>DIGITAL MARKETING</h4>
+                <p>
+                    Curabitur ullamcorper mi ut rutrum gravida commodo tellus.
+                </p>
+
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="/services/examportal" class="widget widget-image">
+        {/* <a href="services/Itlf/" title="read more" class="btn btn-round btn-info">Read More</a>  */}
+            <div class="widget-image-cover">
+                <img src="/about_home.jpeg" alt=""/>
+            </div>
+            <div class="widget-image-info">
+                <h4>EXAM PORTAL </h4>
+                <p>
+                    Curabitur ullamcorper mi ut rutrum gravida commodo tellus.
+                </p>
+            </div>
+        </a>
+    </div>
+  </div>
 </div>
-
-
+  </div>
+  
     )
 }
 
 export default ServicesSection
 
-const ProductTitle = styled.div`
-position:absolute;
-font-weight:400;
-font-size:1rem;
-top: 320px;
-text-align: center;
-justify-content: center;
-`
-const ProductInfo = styled.div`
-                      display:flex;
-                      flex-direction:column;
-                      align-items:center;
-                      padding: 0 2rem;
-
-                      @media screen and (max-width: 400px)
-                      {
-                        padding:0 1rem;
-                      }`

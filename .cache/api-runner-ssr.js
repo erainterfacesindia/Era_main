@@ -1,7 +1,7 @@
 var plugins = [{
       name: 'gatsby-plugin-styled-components',
       plugin: require('/Users/uday/Era_main/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
-      options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false},
+      options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"pure":false},
     },{
       name: 'gatsby-plugin-image',
       plugin: require('/Users/uday/Era_main/node_modules/gatsby-plugin-image/gatsby-ssr'),
@@ -11,17 +11,9 @@ var plugins = [{
       plugin: require('/Users/uday/Era_main/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      name: 'gatsby-plugin-mdx',
-      plugin: require('/Users/uday/Era_main/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
-      options: {"plugins":[],"extensions":[".md",".mdx"],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":1200}}],"defaultLayouts":{},"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"],"root":"/Users/uday/Era_main"},
-    },{
       name: 'gatsby-plugin-manifest',
       plugin: require('/Users/uday/Era_main/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"4a9773549091c227cd2eb82ccd9c5e3a"},
-    },{
-      name: 'gatsby-plugin-gatsby-cloud',
-      plugin: require('/Users/uday/Era_main/node_modules/gatsby-plugin-gatsby-cloud/gatsby-ssr'),
-      options: {"plugins":[]},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

@@ -113,3 +113,9 @@ li:before {
     height: 100%;
   }
 } */
+.headline {
+  margin: 20px 0;
+  padding: 5px 0 10px;
+  border-bottom: 1px solid #eee;
+  font-weight: 500;
+}

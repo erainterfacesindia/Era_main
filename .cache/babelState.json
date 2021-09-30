@@ -16,7 +16,6 @@
             "minify": true,
             "namespace": "",
             "transpileTemplateLiterals": true,
-            "topLevelImportPaths": [],
             "pure": false,
             "ssr": false
           }
@@ -25,23 +24,6 @@
           "name": "/Users/uday/Era_main/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
           "options": {
             "cacheDir": "/Users/uday/Era_main/.cache/caches/gatsby-plugin-image"
-          }
-        },
-        {
-          "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
-          "options": {}
-        },
-        {
-          "name": "babel-plugin-react-css-modules",
-          "options": {
-            "generateScopedName": "[name]--[local]--[hash:base64:5]",
-            "webpackHotModuleReloading": true,
-            "filetypes": {
-              ".scss": {
-                "syntax": "postcss-scss"
-              }
-            },
-            "exclude": "/global/"
           }
         },
         {
@@ -86,23 +68,6 @@
           }
         },
         {
-          "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
-          "options": {}
-        },
-        {
-          "name": "babel-plugin-react-css-modules",
-          "options": {
-            "generateScopedName": "[name]--[local]--[hash:base64:5]",
-            "webpackHotModuleReloading": true,
-            "filetypes": {
-              ".scss": {
-                "syntax": "postcss-scss"
-              }
-            },
-            "exclude": "/global/"
-          }
-        },
-        {
           "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -124,7 +89,6 @@
             "minify": true,
             "namespace": "",
             "transpileTemplateLiterals": true,
-            "topLevelImportPaths": [],
             "pure": false,
             "ssr": false
           }
@@ -159,23 +123,6 @@
           }
         },
         {
-          "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
-          "options": {}
-        },
-        {
-          "name": "babel-plugin-react-css-modules",
-          "options": {
-            "generateScopedName": "[name]--[local]--[hash:base64:5]",
-            "webpackHotModuleReloading": true,
-            "filetypes": {
-              ".scss": {
-                "syntax": "postcss-scss"
-              }
-            },
-            "exclude": "/global/"
-          }
-        },
-        {
           "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -197,7 +144,6 @@
             "minify": true,
             "namespace": "",
             "transpileTemplateLiterals": true,
-            "topLevelImportPaths": [],
             "pure": false,
             "ssr": true
           }
@@ -232,23 +178,6 @@
           }
         },
         {
-          "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
-          "options": {}
-        },
-        {
-          "name": "babel-plugin-react-css-modules",
-          "options": {
-            "generateScopedName": "[name]--[local]--[hash:base64:5]",
-            "webpackHotModuleReloading": true,
-            "filetypes": {
-              ".scss": {
-                "syntax": "postcss-scss"
-              }
-            },
-            "exclude": "/global/"
-          }
-        },
-        {
           "name": "/Users/uday/Era_main/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -270,7 +199,6 @@
             "minify": true,
             "namespace": "",
             "transpileTemplateLiterals": true,
-            "topLevelImportPaths": [],
             "pure": false,
             "ssr": true
           }

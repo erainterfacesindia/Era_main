@@ -1,4 +1,6 @@
 import React from 'react'
+import '../../components/Style/global.css'
+import Layout from '../../components/Layout'
 
 const digipedagogy = () => {
     return (

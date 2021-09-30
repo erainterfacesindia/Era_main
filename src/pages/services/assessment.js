@@ -1,7 +1,10 @@
 import React from 'react'
+import '../../components/Style/global.css'
+import Layout from '../../components/Layout'
 
 const assessment = () => {
     return (
+       
         <div class="bg-black">
         <div class="container pb50">
     <div class="row">
@@ -24,6 +27,7 @@ const assessment = () => {
                         </div>
                         </div>
                         </div>
+                   
                         
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../components/Style/global.css'
 
 const blog2 = () => {
     return (

@@ -187,7 +187,7 @@ import Wrapper from '../UI/Wrapper';
 
 const Menu = () =>{
     return (
-      <Navbar collapseOnSelect expand="md" variant="dark" sticky="top" >
+      <Navbar collapseOnSelect expand="md" variant="dark" sticky="top">
       {/* <div class="navbar navbar-expand-md navbar-dark bd-navbar sticky-top "> */}
       <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
             <Navbar >

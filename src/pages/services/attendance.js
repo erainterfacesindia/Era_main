@@ -1,4 +1,6 @@
 import React from 'react'
+import '../../components/Style/global.css'
+import Layout from '../../components/Layout'
 
 const Attendance = () => {
     return (
@@ -24,6 +26,7 @@ const Attendance = () => {
                         </div>
                         </div>
                         </div>
+                        
                         
     )
 }

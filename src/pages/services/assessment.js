@@ -9,7 +9,7 @@ const assessment = () => {
         <div class="container pb50">
     <div class="row">
     <h2 class="headline py-3 text-center">
-              ONLINE ASSESSMENT
+              ONLINE ASSESSMENT PORTAL
               <span class="line"></span>
             </h2>
         <div class="col-md-12 mb40">

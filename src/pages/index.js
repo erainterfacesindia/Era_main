@@ -6,7 +6,11 @@ import Section2 from "../components/Pages/Home/Section2"
 import Section3 from "../components/Pages/Home/Section3"
 import Section4 from "../components/Pages/Home/AboutCompany/Section4"
 import Callus from "../components/Callus"
+<<<<<<< HEAD
 import Section2Duplicate from "../components/Section2Duplicate"
+=======
+import Clientsection from "../components/Pages/Home/clients/Client"
+>>>>>>> ee763c7 (first commit)
 //import Section2Duplicate from "../components/Section2Duplicate"
 //import Sidebar from "../components/Sidebar"
 
@@ -18,6 +22,10 @@ const IndexPage = ({data}) => (
     <Section1/>
     <Section2 heading="Our Services"/>
     <Section3 heading="Our Blogs"/>
+<<<<<<< HEAD
+=======
+    <Clientsection/>
+>>>>>>> ee763c7 (first commit)
     <Section4 />
     <Callus />
   </Layout>

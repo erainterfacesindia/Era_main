@@ -1,11 +1,24 @@
 import React from 'react'
+<<<<<<< HEAD
 import Wrapper from '../../UI/Wrapper'
 import './home.css'
 import Badge from 'react-bootstrap/Badge'
+=======
+import './section2.css'
+import { StaticImage } from 'gatsby-plugin-image'
+import { Badge } from 'react-bootstrap'
+import Wrapper from '../../UI/Wrapper'
+import {GiGraduateCap} from "react-icons/gi"
+import { FaUsers } from "react-icons/fa"
+import { FaMobileAlt } from "react-icons/fa"
+import {IconContext} from "react-icons"
+import '../../Style/global.css'
+>>>>>>> ee763c7 (first commit)
 
 
 const Section2 = () => {
   return (
+<<<<<<< HEAD
     <div class="p-3s bg-black text-white">
     <div class="container bootstrap snippets bootdey">
     <div class="row">
@@ -51,6 +64,55 @@ const Section2 = () => {
 </div>
 </div>
   
+=======
+      
+    <div class="p-3s bg-black text-white">
+    <div class="container-fluid flex-wrap flex-md-nowrap" style={{padding:"0 5%"}}>
+        <div class="row">
+        <h2 class="py-5">
+  <Badge bg="danger">OUR SERVICES</Badge>
+                {/* <span class="underline"></span>  */}
+              </h2> 
+              <div class="col-md-4 col-sm-12 text-center py-3">
+                <a href="/services">
+              <img src="/Group69.png" style={{ maxWidth:"35%",height:"35%"}}/></a>
+    <h4 class="text-white py-4 sectiontwo">EDUCATION</h4>
+      <p>Our technology-enabled solutions are tailored to meet the demands of individuals & organisations...Our technology-enabled solutions are tailored to meet the demands of individuals & organisations</p>
+      <a href="/services" class="text-danger text-start">Read More</a>
+    </div>
+    <div class="col-md-4 col-sm-12 text-center py-3">
+      <a href="/services">
+    <img src="/Group70.png" style={{ maxWidth:"35%",height:"35%"}}/></a>
+      <h4 class="text-white py-4 sectiontwoo" to="/">RECRUITMENT</h4>
+    <p>Our technology-enabled solutions are tailored to meet the demands of individuals & organisations...Our technology-enabled solutions are tailored to meet the demands of individuals & organisations</p>
+    <a href="/services" class="text-danger text-start">Read More</a>
+    </div>
+    <div class="col-md-4 col-sm-12 text-center py-3">
+      <a href="/services">
+    <img src="/Group71.png" style={{ maxWidth:"35%",height:"35%"}}/></a>
+      <h4 class="text-white py-4 sectiontwooo" to="/">APPLICATION</h4>
+    <p>Our technology-enabled solutions are tailored to meet the demands of individuals & organisations...Our technology-enabled solutions are tailored to meet the demands of individuals & organisations</p>
+    <a href="/services" class="text-danger text-start">Read More</a>
+    </div> 
+   </div>
+   <div class="row py-5 text-center">
+       <h2>Our Achievements</h2>
+       <div class="col-md-4 col-sm-12 text-center py-3">
+       <p className="pa">100+<br/><h5>Clients</h5></p>
+       </div>
+       <div class="col-md-4 col-sm-12 text-center py-3">
+       <p className="pa">100+<br/><h5>Clients</h5></p>
+       </div>
+       <div class="col-md-4 col-sm-12 text-center py-3">
+       <p className="pa">100+<br/><h5>Clients</h5></p>
+       </div>
+       
+
+   </div>
+ </div>
+ </div>
+
+>>>>>>> ee763c7 (first commit)
   
       )
   }
@@ -149,6 +211,7 @@ export default Section2
 
 
 
+<<<<<<< HEAD
 // import * as React from "react"
 //  import { GatsbyImage } from "gatsby-plugin-image"
 //  import { graphql } from "gatsby"
@@ -320,6 +383,8 @@ export default Section2
 
 
 
+=======
+>>>>>>> ee763c7 (first commit)
 
 
 
@@ -452,7 +517,11 @@ export default Section2
 //   const OurservicesArray = []      
 //         data.allFile.edges.map(({node}) => {
 //             OurservicesArray.push( 
+<<<<<<< HEAD
 //               <ProductCard key={node}>
+=======
+//               <Productsection2container key={node}>
+>>>>>>> ee763c7 (first commit)
 //                   <GatsbyImage image={node.childImageSharp.gatsbyImageData} alt={node.base} css={`
 //                       height:100%;
 //                       max-width:100%;
@@ -477,7 +546,11 @@ export default Section2
 //         `}>Explore More</Button>
 //         </ProductInfo>
                                     
+<<<<<<< HEAD
 //    </ProductCard> 
+=======
+//    </Productsection2container> 
+>>>>>>> ee763c7 (first commit)
 //                         )
                         
 //                       })
@@ -536,7 +609,11 @@ export default Section2
 // grid-template-columns:1fr;
 // }`
 
+<<<<<<< HEAD
 // const ProductCard = styled.div`
+=======
+// const Productsection2container = styled.div`
+>>>>>>> ee763c7 (first commit)
 // line-height: 2;
 // width: 100%;
 // height: 500px;

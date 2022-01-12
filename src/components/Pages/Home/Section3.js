@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 import React from 'react'
 import Wrapper from '../../UI/Wrapper'
 import './home.css'
 import Badge from 'react-bootstrap/Badge'
+=======
+import React ,{useState} from 'react'
+import './section3.css'
+import OurblogData from '../../../data/ourblogs'
+import {Button} from '../../Button'
+import { Badge } from 'react-bootstrap'
+import '../../Style/global.css'
+>>>>>>> ee763c7 (first commit)
 
 
 
 
 const Section3 = () => {
+<<<<<<< HEAD
   return (
     <div class="p-3s bg-black text-white">
     <div class="container bootstrap snippets bootdey">
@@ -67,6 +77,79 @@ const Section3 = () => {
   
   
       )
+=======
+    const [visible, setVisible]= useState(3);
+    const loadMore = () =>{
+        setVisible(visible + visible);
+    }
+    const sliceData=OurblogData.CardData.slice(0, visible);
+    
+  return (
+    <div class="p-3s bg-black text-white">
+    <div class="container-fluid flex-wrap flex-md-nowrap pad-bottom-md " style={{padding:"0 5%"}}>{/* container mt-100 mt-60 */}
+        <div class="row">
+        <h2 class="py-5">
+            <Badge bg="danger">OUR BLOGS</Badge>
+              </h2> 
+              <div class="col-md-12">
+                    <a href="/blogposts/blog1" class="ourblogcontainer ourblogcontainer-image">
+                    <div>
+                            <img src="/recruitment1.jpg" style={{height:"500px",width:"100%",objectFit:"cover"}} alt=""/>
+                        </div>
+                        <div class="ourblogcontainer-image-info">
+                            <h4>Consectetur adipiscing elit. </h4>
+                            <p>
+                                Curabitur ullamcorper mi ut rutrum gravida commodo tellus.
+                            </p>
+                            <h5 style={{width:"fit-content",fontSize:"13px",border:"2px solid #fff",padding:"10px"}}>Read More</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="underline"></div>
+                <div class="row">
+                      <h2 class="pad-bottom-sm">Recent Blogs</h2>
+              {sliceData.map((item,index)=>{
+                  return(
+                    <div class="col-md-4 mb-4" key={index}>
+                    <div class="card-content">
+                        <div class="card-img">
+                        <a href="/blogposts/blog1">
+                            <img src={item.img}  alt=""/>   
+                            </a>
+                        </div>
+                        <div class="card-desc">
+                            <h3>{item.title}</h3>
+                            <p>{item.Desc}</p>
+                                <a href="/blogposts/blog1" class="text-danger">Read More</a>   
+                        </div>
+                    </div>
+                   
+                </div>
+                  )
+              })}
+
+              <div className=" text-center mt-5 mb-5">
+              <Button to="/blogs"  primary="true"  css={`
+           font-size:20px;
+           max-width:100%;
+           background:white;
+           color:#f26a2e;
+            `}>View More</Button>  
+            </div>
+              {/* <div className="text-center mt-5 mb-5">   
+                      <button className="btn btn-danger"  onClick={() => loadMore()}>Load More</button>
+                      </div> */}
+                    
+                     
+              
+            </div>
+             </div>
+             </div>
+             </div>
+           
+      )
+     
+>>>>>>> ee763c7 (first commit)
   }
   
 export default Section3

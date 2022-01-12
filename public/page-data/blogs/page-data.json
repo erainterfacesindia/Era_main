@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 {"componentChunkName":"component---src-pages-blogs-js","path":"/blogs/","result":{"pageContext":{}},"staticQueryHashes":["2338931933"]}
+=======
+{
+    "componentChunkName": "component---src-pages-blogs-js",
+    "path": "/blogs/",
+    "result": {"pageContext":{}},
+    "staticQueryHashes": []}
+>>>>>>> ee763c7 (first commit)

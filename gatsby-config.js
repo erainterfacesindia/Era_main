@@ -9,6 +9,9 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
+
+    `gatsby-plugin-modal-routing`,
+
     {
       resolve:`gatsby-plugin-mdx`,
       options: {
@@ -56,6 +59,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/era_logo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,

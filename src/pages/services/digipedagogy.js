@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../components/Style/global.css'
 import Layout from '../../components/Layout'
+<<<<<<< HEAD
 
 const digipedagogy = () => {
     return (
@@ -16,6 +17,26 @@ const digipedagogy = () => {
                 <img src="https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="" class="img-fluid mb30"/>
                 <div>
                     <h3>A smart template that works 24/7 for your company</h3>
+=======
+import { Badge } from 'react-bootstrap'
+
+const digipedagogy = () => {
+    return (
+        <Layout>
+        <div class="bg-black">
+        <div class="container-fluid pb50 py-5 uipad" style={{padding:"0 5%"}}>
+    <div class="row">
+    <h2 class="py-5">
+  <Badge bg="danger">DIGIPEDAGOGY</Badge>
+                {/* <span class="underline"></span>  */}
+              </h2> 
+        <div class="col-md-12 mb40">
+        <article class=" text-center"> 
+                <img src="/recruitment1.jpg" alt="" class=" img-fluid" style={{height:"500px",width:"100%",objectFit:"cover"}}/>
+                
+                <div>
+                    <h3 class="py-4">A smart template that works 24/7 for your company</h3>
+>>>>>>> ee763c7 (first commit)
                     <p class=" text-start">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, 
                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, 
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis 
@@ -26,6 +47,10 @@ const digipedagogy = () => {
                         </div>
                         </div>
                         </div>
+<<<<<<< HEAD
+=======
+                        </Layout>
+>>>>>>> ee763c7 (first commit)
                         
     )
 }

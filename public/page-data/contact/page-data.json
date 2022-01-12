@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 {"componentChunkName":"component---src-pages-contact-js","path":"/contact/","result":{"pageContext":{}},"staticQueryHashes":[]}
+=======
+{
+    "componentChunkName": "component---src-pages-contact-js",
+    "path": "/contact/",
+    "result": {"pageContext":{}},
+    "staticQueryHashes": []}
+>>>>>>> ee763c7 (first commit)

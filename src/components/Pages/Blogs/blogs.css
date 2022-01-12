@@ -6,11 +6,19 @@
   }
   body{margin-top:20px;}
 
+<<<<<<< HEAD
 .widget.widget-image {
     overflow: hidden;
 }
 
 .widget {
+=======
+.blogcontainer.blogcontainer-image {
+    overflow: hidden;
+} 
+
+.blogcontainer {
+>>>>>>> ee763c7 (first commit)
     border: none;
     box-shadow: 0 2px 0 rgba(0,0,0,.07);
     -webkit-border-radius: 5px;
@@ -18,12 +26,20 @@
     border-radius: 5px;
     margin-bottom: 20px;
     position: relative;
+<<<<<<< HEAD
     background: #fff;
+=======
+    /* background: #fff; */
+>>>>>>> ee763c7 (first commit)
     padding: 20px;
     display: block;
 }
 
+<<<<<<< HEAD
 .widget-image-cover {
+=======
+.blogcontainer-image-cover {
+>>>>>>> ee763c7 (first commit)
     margin: -20px;
     padding: 100% 20px 20px;
     border-radius: 5px;
@@ -32,18 +48,30 @@
     position: relative;
 }
 
+<<<<<<< HEAD
 .widget-image:hover .widget-image-cover img {
+=======
+.blogcontainer-image:hover .blogcontainer-image-cover img {
+>>>>>>> ee763c7 (first commit)
     max-width: 110%;
     min-height: 110%;
     margin-left: -5%;
     margin-top: -5%;
 }
 
+<<<<<<< HEAD
 .widget-image .widget-image-cover img {
     transition: all .1s ease-in-out;
 }
 
 .widget-image-cover img {
+=======
+.blogcontainer-image .blogcontainer-image-cover img {
+    transition: all .1s ease-in-out;
+}
+
+.blogcontainer-image-cover img {
+>>>>>>> ee763c7 (first commit)
     position: absolute;
     top: 0;
     left: 0;
@@ -53,24 +81,40 @@
     max-width: 100%;
 }
 
+<<<<<<< HEAD
 .widget-image-info {
+=======
+.blogcontainer-image-info {
+>>>>>>> ee763c7 (first commit)
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 75%);
+<<<<<<< HEAD
     padding: 20px;
     color: #fff;
 }
 
 .widget-image-info h5 {
+=======
+    padding: 40px;
+    color: #fff;
+}
+
+.blogcontainer-image-info h5 {
+>>>>>>> ee763c7 (first commit)
     color: #fff;
     margin-top: 0;
     margin-bottom: 5px;
     font-size: 16px;
 }
 
+<<<<<<< HEAD
 .widget-image-info p {
+=======
+.blogcontainer-image-info p {
+>>>>>>> ee763c7 (first commit)
     color: rgba(255,255,255,.9);
 }
 
@@ -82,13 +126,18 @@
     padding: 0 10px;
 }
 
+<<<<<<< HEAD
 .widget-image-user .widget-image-user-image {
+=======
+.blogcontainer-image-user .blogcontainer-image-user-image {
+>>>>>>> ee763c7 (first commit)
     border-radius: 36px;
     float: left;
     width: 36px;
     background: #fff;
 }
 
+<<<<<<< HEAD
 .widget-image-user .widget-image-user-info {
     margin-left: 46px;
 }
@@ -97,3 +146,140 @@
     max-width: 100%;
     border-radius: 36px;
 }
+=======
+.blogcontainer-image-user .blogcontainer-image-user-info {
+    margin-left: 46px;
+}
+
+.blogcontainer-image-user .blogcontainer-image-user-image img {
+    max-width: 100%;
+    border-radius: 36px;
+} 
+
+
+.details-card {
+	background: #ecf0f1;
+    
+}
+
+.card-content {
+	background:black;
+	border: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    
+    
+}
+
+.card-img {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	z-index: 1;
+}
+
+.card-img img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.card-img span {
+	position: absolute;
+    top: 15%;
+    left: 12%;
+    background: #1ABC9C;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.card-img span h4{
+        font-size: 12px;
+        margin:0;
+        padding:10px 5px;
+         line-height: 0;
+}
+.card-desc {
+	/* padding: 1.25rem; */
+}
+
+.card-desc h3 {
+	color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: start;
+}
+
+.card-desc p {
+	color: whitesmoke;
+    font-size: 14px;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.blogbtn-card{
+	/* background: linear-gradient(90deg, rgba(213,48,44,1) 50%, rgba(210,51,91,1) 100%); 
+	color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    margin: 0;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff; */
+}
+
+.blogbtn-cards{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    margin: 0;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff;
+}
+.blogbtn-card:hover {
+    color: orange;
+}
+a.blogbtn-card {
+    text-decoration: none;
+    color: red;;
+}
+
+.blogpad{
+    padding:0 5%;
+}
+>>>>>>> ee763c7 (first commit)

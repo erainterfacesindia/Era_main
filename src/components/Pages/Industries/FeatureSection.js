@@ -11,6 +11,10 @@ import {
   } from "react-icons/gi"
   import { FaUsers } from "react-icons/fa";
   import "./feature.css"
+<<<<<<< HEAD
+=======
+  import '../../Style/global.css'
+>>>>>>> ee763c7 (first commit)
 
 
 
@@ -18,6 +22,7 @@ import {
     return (
      
 <div class="bg-black">
+<<<<<<< HEAD
      <Card className="bg-dark text-white">
   <Card.Img style={{ width: '100%',height:'50vh' , objectFit:"cover",mixBlendMode: "lighten"}}src="/industries-cover.jpeg" alt="Card image" fade />
   <Card.ImgOverlay>
@@ -39,11 +44,29 @@ import {
       <p className="aboutp">Our technology-enabled solutions are tailored to meet the demands of individuals & organisations...Our technology-enabled solutions are tailored to meet the demands of individuals & organisations</p>
     </div>
     <div class="col-lg-6 col-sm-12 text-center">
+=======
+<div class="container-fluid flex-wrap flex-md-nowrap py-3 uipad" style={{padding:"0 5%"}}>
+  <div className={Styles.container + " row"}>
+  <h2 class="py-5">
+  <Badge bg="danger">Industries We Serve</Badge>
+                {/* <span class="underline"></span>  */}
+              </h2> 
+    <div class="col-lg-6 col-sm-12 text-center py-3">
+      <FaUsers size={70} color="#f26a2e"/>
+      <h4 class="text-white" to="/">RECRUITMENT</h4>
+      <p className="aboutp">Our technology-enabled solutions are tailored to meet the demands of individuals & organisations...Our technology-enabled solutions are tailored to meet the demands of individuals & organisations</p>
+    </div>
+    <div class="col-lg-6 col-sm-12 text-center py-3">
+>>>>>>> ee763c7 (first commit)
     <GiGraduateCap size={70} color="#f26a2e"/>
     <h4 class="text-white">EDUCATION</h4>
     <p className="aboutp">Our technology-enabled solutions are tailored to meet the demands of individuals & organisations...Our technology-enabled solutions are tailored to meet the demands of individuals & organisations</p>
     </div>
+<<<<<<< HEAD
      <div class="col-lg-6 col-sm-12 text-center pad-top-md">
+=======
+     <div class="col-lg-6 col-sm-12 text-center py-3">
+>>>>>>> ee763c7 (first commit)
       <GiShoppingCart size={70} color="#f26a2e"/>
       <h4 class="text-white">E-COMMERCE</h4>
       <p className="aboutp">Our technology-enabled solutions are tailored to meet the demands of individuals & organisations...Our technology-enabled solutions are tailored to meet the demands of individuals & organisations</p>
@@ -55,8 +78,14 @@ import {
     Our technology-enabled solutions are tailored to meet the demands of individuals & organisations</p>
     </div> 
     </div>
+<<<<<<< HEAD
   </Wrapper>
   </div>
+=======
+  </div>
+  </div>
+ 
+>>>>>>> ee763c7 (first commit)
 
 )
 }

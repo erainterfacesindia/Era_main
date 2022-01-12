@@ -1,3 +1,121 @@
+<<<<<<< HEAD
+=======
+import React from 'react';
+import { Navbar, Nav,NavDropdown} from 'react-bootstrap';
+import "./navbar.css"
+import { Button } from "../Button"
+import Wrapper from '../UI/Wrapper';
+
+const Menu = () =>{
+    return (
+      
+      <Navbar collapseOnSelect expand="md" variant="dark" fixed="top" >
+      {/* <div class="navbar navbar-expand-md navbar-dark bd-navbar sticky-top "> */}
+      <nav class="container-fluid flex-wrap flex-md-nowrap" aria-label="Main navigation" style={{padding:"0 5%"}}>
+     
+            <Navbar>
+              <a href="/">
+        <img src="/era_logo.png" alt="era-logo" href="/" width="130px"/> </a></Navbar> 
+         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" className=" justify-content-md-end"> 
+          <Nav>
+            <Nav.Link className="nav-links" href="/">Home</Nav.Link>
+            <NavDropdown title="About" href="/about" id="basic-nav-dropdown">
+            <NavDropdown.Item href="/about">About Our Company</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="/team">Our Team</NavDropdown.Item>
+            </NavDropdown>
+            {/* <Nav.Link className="nav-links" href="/about">About</Nav.Link> */}
+            <Nav.Link className="nav-links" href="/services">Services</Nav.Link>
+            <Nav.Link className="nav-links" href="/industries">Industries</Nav.Link>
+            <Nav.Link className="nav-links" href="/blogs">Blogs</Nav.Link>
+            <Button primary="true" to="/contact" >Contact Now</Button>
+          </Nav>
+          </Navbar.Collapse>         
+        </nav>
+       
+        </Navbar>
+        
+       
+  
+    );
+}
+
+export default Menu;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> ee763c7 (first commit)
 // import React, {useEffect, useState} from 'react'
 // import {FaBars, FaTimes} from "react-icons/fa"
 // import { menuData } from '../data/MenuData'
@@ -176,6 +294,7 @@
 //    {
 //      display:none;
 //    }
+<<<<<<< HEAD
 // `
 
 
@@ -211,3 +330,6 @@ const Menu = () =>{
 }
 
 export default Menu;
+=======
+// `
+>>>>>>> ee763c7 (first commit)

@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 {"componentChunkName":"component---src-pages-industries-js","path":"/industries/","result":{"pageContext":{}},"staticQueryHashes":[]}
+=======
+{
+    "componentChunkName": "component---src-pages-industries-js",
+    "path": "/industries/",
+    "result": {"pageContext":{}},
+    "staticQueryHashes": []}
+>>>>>>> ee763c7 (first commit)

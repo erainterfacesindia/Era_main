@@ -1,17 +1,26 @@
 import React from 'react'
 import {Button} from './Button'
+<<<<<<< HEAD
 import Wrapper from '../components/UI/Wrapper'
 import * as CallStyles from '../components/Pages/Home/HeroSection/Section1.module.css'
+=======
+>>>>>>> ee763c7 (first commit)
 import '../components/Style/global.css'
 
 const Callus = () => {
     return (
+<<<<<<< HEAD
       <div class="p-3 bg-danger bg-gradient text-white">
       <div class="container bootstrap snippets bootdey">
+=======
+      <div class="bg-danger bg-gradient text-white">
+      <div class="container-fluid flex-wrap flex-md-nowrap py-5 uipad" style={{padding:"0 5%"}}>
+>>>>>>> ee763c7 (first commit)
         <div class="row">
             <div className="col-lg-6 col-sm-12">
               <h2>Next ERA Of Your Business, Start Here.  </h2>
             </div> 
+<<<<<<< HEAD
           <div className="col-lg-6 col-sm-12 text-md-center" >
             <Button as="button" type="submit" primary="true" round="true" css={`
            font-size:20px;
@@ -19,6 +28,16 @@ const Callus = () => {
            background-color:white;
            color:#f26a2e;
             `}>Callus Now</Button>  
+=======
+          <div className="col-lg-6 col-sm-12 text-lg-end" >
+            <div class="btn bg-white text-danger px-4" to="/contact" >Callus Now</div>
+            {/* <Button to="/contact"  primary="true"  css={`
+           font-size:20px;
+           max-width:100%;
+           background:white;
+           color:#f26a2e;
+            `}>Callus Now</Button>   */}
+>>>>>>> ee763c7 (first commit)
         </div>    
         </div>  
       </div>
